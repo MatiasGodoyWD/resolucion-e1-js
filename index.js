@@ -71,7 +71,7 @@ const precioMenorA600 = (pizza) => pizza.precio < 600;
 
 //Opción 1
 if (pizzas.some(precioMenorA600)) {
-  console.log();
+  console.log("Hay pizzas con precio menor a $600");
 } else {
   console.log("No hay pizzas con precio menor a $600");
 }
